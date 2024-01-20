@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome kit link-->
+    <script src="https://kit.fontawesome.com/479f6b8171.js" crossorigin="anonymous"></script>
+
+    <!-- Custom script style -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS -->
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manrope">
+    <!-- header -->
+    <header class="w-11/12 mx-auto">
+        <!-- Banner part -->
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+                <div>
+                    <h1 class="text-7xl font-extrabold">It's good
+                        tea time at The Tea House</h1>
+                    <p class="py-6 text-gray-500">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <button class="btn btn-primary text-white bg-gradient-to-r from-[#ff4242] to-[#FF8938]
+                    border-0 hover:scale-x-105 transition-all">Explore More <img src="./images/arrow.png"
+                            alt=""></button>
+                </div>
+                <div class="">
+                    <img src="./images/banner.png" class="max-w-sm lg:max-w-lg" />
+                    <div class="flex items-center gap-4 drop-shadow-lg rounded-xl bg-white p-5 w-60 -mt-20">
+                        <i class="fa-solid fa-star text-4xl text-amber-400"></i>
+                       <div class=""> <h3 class="text-2xl font-bold">
+                        5.00
+                       </h3>
+                        <p class="text-gray-500">Trust Pilot Ratings</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="container mx-auto">
+<!-- featured section -->
+<section class="text-center my-24">
+<h1 class="text-5xl mb-5 text-center font-bold capitalize">Our Featured Products</h1>
+<p class="text-gray-500 text-center lg:max-w-4xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+<!-- featured card container -->
+<div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 mt-10 gap-5">
+    <div class="card p-8 bg-gradient-to-t from-[#F4F4F4] to-[#f4f4f400] ">
+        <figure><img src="./images/tea-1.png" alt="Shoes" /></figure>
+        <div class="card-body justify-center">
+          <h2 class="card-title uppercase font-bold">Milk tea</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+        </div>
+      </div>
+    <div class="card w-full p-8 bg-gradient-to-t from-[#F4F4F4] to-[#f4f4f400]">
+        <figure><img src="./images/tea-2.png" alt="Shoes" /></figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title uppercase font-bold">Black Tea</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+        </div>
+      </div>
+    <div class="card w-full p-8 bg-gradient-to-t from-[#F4F4F4] to-[#f4f4f400]">
+        <figure><img src="./images/tea-3.png" alt="Shoes" /></figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title uppercase font-bold">Lemon tea</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+        </div>
+      </div>
+    <div class="card w-full p-8 bg-gradient-to-t from-[#F4F4F4] to-[#f4f4f400]">
+        <figure><img src="./images/tea-4.png" alt="Shoes" /></figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title uppercase font-bold">Cocacola tea</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+        </div>
+      </div>
+</div>
+</section>
+    </main>
+    <!-- footer -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
